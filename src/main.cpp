@@ -2,7 +2,7 @@
 
 int main(){
     // TODO
-    std::cout << "hello Zach McMillan" << std::endl;
+    std::cout << "hello Zach" << std::endl;
     
     return 0;
 }
