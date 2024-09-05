@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main(){
     // TODO
-    std::cout << "hello Zachary McMillan" << std::endl;
+    cout << "hello Zachary McMillan" << endl;
+    
     
     return 0;
 }
