@@ -2,6 +2,7 @@
 #include <iomanip>
 using namespace std;
 
+
 int main() {
     int row = 0;
     while(row < 12){
