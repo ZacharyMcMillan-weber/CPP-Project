@@ -18,7 +18,7 @@ void multiplication_table(int size)
         {
             cout << setw(4) << (row + 1) * (column + 1) << " |";
         }
-        cout << endl;
+        cout << endl;   
     }
 }
 
