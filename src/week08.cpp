@@ -36,7 +36,7 @@ class Account {
     }
 };
 
-int main() {
+int     dmain() {
     Account a{123, 100.0, "Checking", 0.005};
     Account b{234};
 

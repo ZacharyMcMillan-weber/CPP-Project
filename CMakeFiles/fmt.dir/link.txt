@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fmt.dir/src/format.cpp.o -o fmt 
