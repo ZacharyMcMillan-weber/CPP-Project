@@ -24,6 +24,7 @@ ostream& operator<<(ostream& out, vector<int> v){
 class C {
     private:
         double number = 4.5;
+        char type = 'P'; //price
     
     public:
         C& operator+(int b){
@@ -45,12 +46,28 @@ class C {
             return number == b;
         }
 
-        friend ostream& operator<<(ostream& out, C& c){
-            out << c.number;
+        int operator[](int index){
+            if(index == 0){
+                return type;
+            } else{
+                return number;
+            }
+        }
+
+        friend ostream& operator<<(ostream& out, const C& c){
+            out << c.type << ":" << c.number;
             
             return out;
         }
+        friend istream&  operator>>(istream& in, C& c){
+            char trash;
+            in >> c.type >> trash >> c.number;
+
+            return in;
+        }
+
 };
+
 
 int main(){
     vector<int> v{12, 3, 100, 72, 86, 68};
@@ -65,14 +82,18 @@ int main(){
 
     C a;
 
+    cout << "Enter a C object (for example P:10) ";
+    cin >> a;
+
     a + 3 + 6 + 7; //a.operator+(3)
     cout << a << endl;
     a - 6;
     cout << a << endl;
     ++a; // a.operator++
     cout << a << endl;
-   cout << (a==15) << endl; // 
+    cout << (a==15) << endl; // 
     cout << a << endl;
+    cout <<static_cast<char>(a[0]) << " - " << a[1] << endl;
 
     return 0;
 }
