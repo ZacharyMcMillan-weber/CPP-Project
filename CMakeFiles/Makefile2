@@ -72,6 +72,7 @@ all: CMakeFiles/week05.dir/all
 all: CMakeFiles/week06.dir/all
 all: CMakeFiles/week08.dir/all
 all: CMakeFiles/week09.dir/all
+all: CMakeFiles/week10.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +89,7 @@ clean: CMakeFiles/week05.dir/clean
 clean: CMakeFiles/week06.dir/clean
 clean: CMakeFiles/week08.dir/clean
 clean: CMakeFiles/week09.dir/clean
+clean: CMakeFiles/week10.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -305,12 +307,12 @@ CMakeFiles/week08.dir/clean:
 CMakeFiles/week09.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week09.dir/build.make CMakeFiles/week09.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week09.dir/build.make CMakeFiles/week09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CPP-Project/CMakeFiles --progress-num=17,18 "Built target week09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CPP-Project/CMakeFiles --progress-num=17,18,19 "Built target week09"
 .PHONY : CMakeFiles/week09.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/week09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week09.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 0
 .PHONY : CMakeFiles/week09.dir/rule
@@ -323,6 +325,32 @@ week09: CMakeFiles/week09.dir/rule
 CMakeFiles/week09.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week09.dir/build.make CMakeFiles/week09.dir/clean
 .PHONY : CMakeFiles/week09.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/week10.dir
+
+# All Build rule for target.
+CMakeFiles/week10.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CPP-Project/CMakeFiles --progress-num=20,21 "Built target week10"
+.PHONY : CMakeFiles/week10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/week10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 0
+.PHONY : CMakeFiles/week10.dir/rule
+
+# Convenience name for target.
+week10: CMakeFiles/week10.dir/rule
+.PHONY : week10
+
+# clean rule for target.
+CMakeFiles/week10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/clean
+.PHONY : CMakeFiles/week10.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

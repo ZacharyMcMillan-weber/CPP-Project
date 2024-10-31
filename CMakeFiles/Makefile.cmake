@@ -52,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/week06.dir/DependInfo.cmake"
   "CMakeFiles/week08.dir/DependInfo.cmake"
   "CMakeFiles/week09.dir/DependInfo.cmake"
+  "CMakeFiles/week10.dir/DependInfo.cmake"
   )

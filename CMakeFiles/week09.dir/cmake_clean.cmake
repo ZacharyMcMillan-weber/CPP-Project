@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/week09.dir/src/point.cpp.o"
+  "CMakeFiles/week09.dir/src/point.cpp.o.d"
   "CMakeFiles/week09.dir/src/week09.cpp.o"
   "CMakeFiles/week09.dir/src/week09.cpp.o.d"
   "week09"

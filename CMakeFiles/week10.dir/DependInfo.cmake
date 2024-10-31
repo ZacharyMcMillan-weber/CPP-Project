@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/CPP-Project/src/point.cpp" "CMakeFiles/week09.dir/src/point.cpp.o" "gcc" "CMakeFiles/week09.dir/src/point.cpp.o.d"
-  "/workspaces/CPP-Project/src/week09.cpp" "CMakeFiles/week09.dir/src/week09.cpp.o" "gcc" "CMakeFiles/week09.dir/src/week09.cpp.o.d"
+  "/workspaces/CPP-Project/src/week10.cpp" "CMakeFiles/week10.dir/src/week10.cpp.o" "gcc" "CMakeFiles/week10.dir/src/week10.cpp.o.d"
   )
 
 # Targets to which this target links.
