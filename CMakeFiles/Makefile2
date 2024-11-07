@@ -73,6 +73,7 @@ all: CMakeFiles/week06.dir/all
 all: CMakeFiles/week08.dir/all
 all: CMakeFiles/week09.dir/all
 all: CMakeFiles/week10.dir/all
+all: CMakeFiles/week11.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -90,6 +91,7 @@ clean: CMakeFiles/week06.dir/clean
 clean: CMakeFiles/week08.dir/clean
 clean: CMakeFiles/week09.dir/clean
 clean: CMakeFiles/week10.dir/clean
+clean: CMakeFiles/week11.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -351,6 +353,32 @@ week10: CMakeFiles/week10.dir/rule
 CMakeFiles/week10.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/clean
 .PHONY : CMakeFiles/week10.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/week11.dir
+
+# All Build rule for target.
+CMakeFiles/week11.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CPP-Project/CMakeFiles --progress-num=22,23 "Built target week11"
+.PHONY : CMakeFiles/week11.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/week11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CPP-Project/CMakeFiles 0
+.PHONY : CMakeFiles/week11.dir/rule
+
+# Convenience name for target.
+week11: CMakeFiles/week11.dir/rule
+.PHONY : week11
+
+# clean rule for target.
+CMakeFiles/week11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/clean
+.PHONY : CMakeFiles/week11.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

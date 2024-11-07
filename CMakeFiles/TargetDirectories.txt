@@ -8,5 +8,6 @@
 /workspaces/CPP-Project/CMakeFiles/week08.dir
 /workspaces/CPP-Project/CMakeFiles/week09.dir
 /workspaces/CPP-Project/CMakeFiles/week10.dir
+/workspaces/CPP-Project/CMakeFiles/week11.dir
 /workspaces/CPP-Project/CMakeFiles/edit_cache.dir
 /workspaces/CPP-Project/CMakeFiles/rebuild_cache.dir

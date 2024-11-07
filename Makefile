@@ -246,6 +246,19 @@ week10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/build
 .PHONY : week10/fast
 
+#=============================================================================
+# Target rules for targets named week11
+
+# Build rule for target.
+week11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week11
+.PHONY : week11
+
+# fast build rule for target.
+week11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/build
+.PHONY : week11/fast
+
 src/format.o: src/format.cpp.o
 .PHONY : src/format.o
 
@@ -510,6 +523,30 @@ src/week10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10.dir/build.make CMakeFiles/week10.dir/src/week10.cpp.s
 .PHONY : src/week10.cpp.s
 
+src/week11.o: src/week11.cpp.o
+.PHONY : src/week11.o
+
+# target to build an object file
+src/week11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/src/week11.cpp.o
+.PHONY : src/week11.cpp.o
+
+src/week11.i: src/week11.cpp.i
+.PHONY : src/week11.i
+
+# target to preprocess a source file
+src/week11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/src/week11.cpp.i
+.PHONY : src/week11.cpp.i
+
+src/week11.s: src/week11.cpp.s
+.PHONY : src/week11.s
+
+# target to generate assembly for a file
+src/week11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week11.dir/build.make CMakeFiles/week11.dir/src/week11.cpp.s
+.PHONY : src/week11.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -528,6 +565,7 @@ help:
 	@echo "... week08"
 	@echo "... week09"
 	@echo "... week10"
+	@echo "... week11"
 	@echo "... src/format.o"
 	@echo "... src/format.i"
 	@echo "... src/format.s"
@@ -561,6 +599,9 @@ help:
 	@echo "... src/week10.o"
 	@echo "... src/week10.i"
 	@echo "... src/week10.s"
+	@echo "... src/week11.o"
+	@echo "... src/week11.i"
+	@echo "... src/week11.s"
 .PHONY : help
 
 
