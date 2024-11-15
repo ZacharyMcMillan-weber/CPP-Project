@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/week09.dir/src/week09.cpp.o CMakeFiles/week09.dir/src/point.cpp.o -o week09 

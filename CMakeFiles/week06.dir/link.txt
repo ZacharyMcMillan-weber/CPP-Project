@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/week06.dir/src/week06.cpp.o -o week06 
